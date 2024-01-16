@@ -42,7 +42,7 @@ WHERE r.customer_id = 5;
 
 SELECT title
 FROM film
-ORDER BY release_year DESC
+ORDER BY release_year DESC   -- descending order     ASC ascending order
 LIMIT 10;
 
 -- 특정 영화에 출연한 배우 목록 조회
